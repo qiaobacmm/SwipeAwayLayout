@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bulletnoid.android.widget.SwipeAwayLayout.lib.SwipeAwayLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white">
+
+        <RadioGroup
+                android:id="@+id/radig_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+            <RadioButton
+                    android:id="@+id/radi_mode_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Swipe to left"/>
+
+            <RadioButton
+                    android:id="@+id/radi_mode_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Swipe to Right"/>
+
+            <RadioButton
+                    android:id="@+id/radi_mode_both"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Swipe to both"/>
+        </RadioGroup>
+
+        <Button
+                android:id="@+id/btn_new_ac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Start new activity"/>
+
+    </RelativeLayout>
+
+</com.bulletnoid.android.widget.SwipeAwayLayout.lib.SwipeAwayLayout>
+
